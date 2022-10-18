@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.header-top p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-bar {
+  background-color: #dde3e7;
+  border: 1px solid black;
+  background-image: linear-gradient(to bottom, #c9d6de, #fff);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+.nav-bar a {
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #555;
+  font-family: inherit;
+}
+
+.main {
+  background-color: black;
+  padding: 20px 50px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.about {
+  color: #fff;
+}
+
+.about-title {
+  background-image: linear-gradient(to bottom, #fff, #f1c44a);
+  color: #333;
+  padding: 5px 30px;
+}
+
+.about-content {
+  background-image: linear-gradient(to right, #9999, #000);
+  line-height: 1.6;
+  padding: 10px 20px;
+}
+
+.about-content h3,
+.about-content p {
+  margin: 19px 0;
+}
+
+.midline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  
+}
+
+
+.midline p {
+  color: #f2bb25;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.text{
+  background-image: linear-gradient(to bottom ,#fff,#f1c44a);
+  padding: 10px 20px;
+  min-height: 200px;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.box{
+  position: relative;
+}
+
+.box h2 {
+  background-image: linear-gradient(to bottom, #fff, #f1c44a);
+  color: black;
+  padding: 5px 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box p{
+  color: black;
+
+}
+
+.box img{
+  width: 25%;
+  height: 170px;
+}
+
+.box a{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  padding: 5px 20px;
+  font-weight: 14px;
+  font-weight: 600;
+  color: #000;
+  background-color: #f1c44a;
+  border: 3px solid black;
+  border-top-right-radius:100px ;
+  border-bottom-right-radius:100px ;
+}
